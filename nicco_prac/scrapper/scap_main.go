@@ -21,7 +21,7 @@ func handleScrape(c echo.Context) error {
 	return c.Attachment(fileName, fileName)
 }
 
-func main() {
+func web() {
 	e := echo.New()
 	e.GET("/", handleHome)
 	e.POST("/scrape", handleScrape)

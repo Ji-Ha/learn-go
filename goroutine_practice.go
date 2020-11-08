@@ -5,7 +5,8 @@ import (
 	"time"
 )
 
-func Gorountine_practice() {
+//GorountinePractice 연습용
+func GorountinePractice() {
 	c := make(chan string)
 	people := [5]string{"nico", "flynn", "dal", "jihwan", "larry"}
 	for _, person := range people {
